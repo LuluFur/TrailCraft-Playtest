@@ -1,0 +1,52 @@
+name: Bug report
+description: Tell us what went wrong while making or playing a map.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see? A screenshot is helpful if you have one.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: List what you clicked or pressed, in order. Short steps are fine.
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: build-sha
+    attributes:
+      label: Build number (optional)
+      description: >-
+        If you can, copy the value after build_sha= on the last app.start line in the log.
+        Windows: paste %LOCALAPPDATA%\TrailCraft into File Explorer's address bar and open
+        trailcraft.log. Linux: open ~/trailcraft-prefix/drive_c/users/steamuser/AppData/Local/TrailCraft/trailcraft.log.
+        You can attach the log instead if that is easier.
+      placeholder: "abc1234"
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      options:
+        - Windows
+        - Linux (Proton)
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Optional. Drag a screenshot here. You can attach trailcraft.log too if you could not find the build number.

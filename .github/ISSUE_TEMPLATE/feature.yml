@@ -1,0 +1,23 @@
+name: Feature request
+description: Something you want TrailCraft to do.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: What do you want?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do you want it?
+      description: What are you trying to make?
+    validations:
+      required: true
+  - type: textarea
+    id: picture
+    attributes:
+      label: Picture (optional)
+      description: Drag images here.
