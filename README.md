@@ -6,6 +6,14 @@
 
 TrailCraft is in playtesting. If something goes wrong, or you have an idea, use one of the feedback links below.
 
+TrailCraft is proprietary software supplied for personal, non-commercial
+playtesting under the [playtest licence](LICENCE). Reverse engineering,
+redistribution, resale and modification of the app are prohibited, subject
+to mandatory legal rights and third-party licences. You can create and
+export user created content, modify and share files created solely
+from the app's exported contents, and share screenshots
+and recordings of normal use.
+
 <p align="center">
   <a href="https://github.com/LuluFur/TrailCraft-Playtest/releases/download/v0.1.0/TrailCraft-test.zip"><strong>⬇ Download TrailCraft 0.1.0 (Windows)</strong></a>
 </p>
