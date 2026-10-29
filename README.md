@@ -7,7 +7,7 @@
 TrailCraft is in playtesting. If something goes wrong, or you have an idea, use one of the feedback links below.
 
 <p align="center">
-  <a href="https://github.com/LuluFur/TrailCraft-Playtest/raw/refs/heads/main/downloads/TrailCraft-v0.1.0-playtest.1.zip"><strong>⬇ Download TrailCraft v0.1.0-playtest.1 (Windows)</strong></a>
+  <a href="https://github.com/LuluFur/TrailCraft-Playtest/releases/download/v0.1.0/TrailCraft-test.zip"><strong>⬇ Download TrailCraft 0.1.0 (Windows)</strong></a>
 </p>
 
 ![The TrailCraft editor with a forest map open](images/app-full.png)
@@ -21,10 +21,7 @@ TrailCraft reads game props from your Trailmakers installation. The download doe
 
 ## Install on Windows
 
-1. Download the ZIP using the button above.
-2. In File Explorer, right-click the ZIP and choose **Extract All**.
-3. Open the extracted folder and double-click **TrailCraft.exe**.
-4. If Windows says it protected your PC, choose **More info**, then **Run anyway**. TrailCraft is not signed yet.
+Download the ZIP using the button above. In File Explorer, right-click the ZIP and choose **Extract All**, then open the extracted folder and double-click **TrailCraft.exe**. If Windows says it protected your PC, choose **More info**, then **Run anyway**. TrailCraft is not signed yet.
 
 TrailCraft looks for Trailmakers in your Steam library. If it cannot find the game, choose **Pick Trailmakers folder...** and select the folder containing `Trailmakers.exe`. The usual folder is:
 
@@ -46,13 +43,13 @@ You can paint groups of props with the Asset Brush, import a Trailmappers save, 
 
 ## Known bug
 
-Trailmakers may prefer the test-zone floor as the place to build or repair a vehicle instead of the terrain. This is a known game interaction and does not block the playtest.
+Trailmakers may select the test-zone floor as the priority space for building or repairing vehicles instead of the terrain. This is a known game interaction and does not block the playtest.
 
 ![The toolbar in TrailCraft](images/toolbar.png)
 
 ## Linux with Proton
 
-The tested Linux setup uses Steam, `umu-run`, and GE-Proton10-34. This option uses a terminal command, but you do not need to write or change code. First extract the ZIP. Then open a terminal, replace `/path/to/extracted/folder` with the folder you extracted, and paste:
+The tested Linux setup uses Steam, `umu-run`, and GE-Proton10-34. This option uses a terminal command, but you do not need to write or change code. Download and extract the ZIP. Then open a terminal, replace `/path/to/extracted/folder` with the folder you extracted, and paste:
 
 ```sh
 PROTONPATH="$HOME/.local/share/Steam/compatibilitytools.d/GE-Proton10-34" \
