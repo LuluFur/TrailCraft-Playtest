@@ -35,7 +35,7 @@ TrailCraft looks for Trailmakers in your Steam library. If it cannot find the ga
 
 `C:\Program Files (x86)\Steam\steamapps\common\Trailmakers`
 
-TrailCraft remembers the folder. It creates pictures for the prop list; wait for the list to fill. Load times can vary between starts and computers and cannot be guaranteed, especially for remote clients connecting to a multiplayer server.
+TrailCraft remembers the folder. It creates pictures for the prop list; wait for the list to fill. Load times can vary between starts and computers and cannot be guaranteed.
 
 ## Make and play a map
 
